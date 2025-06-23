@@ -9,9 +9,10 @@ menu This is a Test Menu
 item --gap This is the first sub menu
 item option_one ${space} Install PopOS Cosmic (Intel) 24.04
 item option_two ${space} Install XCP-NG 8.2.1
+item option_three ${space} Install XCP-NG 8.2.1
 item --gap This is a second sub menu
-item option_three ${space} Loads another custom sub menu
-item option_four ${space} This is option four
+item option_four ${space} Loads another custom sub menu
+#item option_four ${space} This is option four
 choose custom_choice || goto custom_exit
 echo ${cls}
 goto ${custom_choice}
